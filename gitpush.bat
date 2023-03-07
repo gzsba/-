@@ -1,11 +1,11 @@
 @echo off
  
-title GITä¸€é”®æäº¤
+title GITÒ»¼üÌá½»
 color 3
-echo å½“å‰ç›®å½•æ˜¯ï¼š%cd%
+echo µ±Ç°Ä¿Â¼ÊÇ£º%cd%
 echo;
  
-echo å¼€å§‹æ·»åŠ å˜æ›´ï¼šgit add .
+echo ¿ªÊ¼Ìí¼Ó±ä¸ü£ºgit add .
 git add .
 echo;
  
@@ -13,12 +13,12 @@ echo;
 git commit -m "%date%"
 echo;
  
-echo å°†å˜æ›´æƒ…å†µæäº¤åˆ°è¿œç¨‹è‡ªå·±åˆ†æ”¯ï¼šgit push origin hlt
+echo ½«±ä¸üÇé¿öÌá½»µ½Ô¶³Ì×Ô¼º·ÖÖ§£ºgit push origin hlt
 git push
 echo;
 
  
-echo æ‰§è¡Œå®Œæ¯•ï¼
+echo Ö´ĞĞÍê±Ï£¡
 echo;
  
 pause
