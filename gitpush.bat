@@ -1,4 +1,4 @@
-@echo off
+@echo on
  
 title GITÒ»¼üÌá½»
 color 3
