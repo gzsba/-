@@ -9,8 +9,8 @@ echo 开始添加变更：git add .
 git add .
 echo;
  
-set /p declation=输入提交的commit信息:
-git commit -m "%declation%"
+::set /p declation=%date%
+git commit -m "%date%"
 echo;
  
 echo 将变更情况提交到远程自己分支：git push origin hlt
